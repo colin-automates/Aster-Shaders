@@ -1,0 +1,2 @@
+97ac049521639e3cacbaa8e9a50c06496d416bc3ae8f4b680f1eec5749b00537  Aster-Materials-0.2.0.zip
+9714ba3e00ef19022197531bf7af559cded9d27fa55fc548cef029b18b591fa9  Aster-Sodium-0.2.1.zip

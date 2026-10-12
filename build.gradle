@@ -1,0 +1,25 @@
+plugins { id 'base' }
+version = '0.2.1'
+group = 'dev.colin.aster'
+
+// Sodium owns terrain rendering; Iris owns the shader pipeline. Former client
+// mod sources remain reference material and are not compiled or packaged.
+tasks.register('buildMaterialPack', Exec) {
+    workingDir projectDir
+    commandLine 'python', 'scripts/build-sodium-materials.py'
+    inputs.file 'scripts/build-sodium-materials.py'
+    inputs.file 'materials/aster-materials.json'
+    inputs.file providers.gradleProperty('minecraftClient').getOrElse("${System.getenv('APPDATA')}/.minecraft/versions/26.3/26.3.jar")
+    if (project.hasProperty('minecraftClient')) args '--minecraft-client', providers.gradleProperty('minecraftClient').get()
+    outputs.file 'build/resourcepacks/Aster-Materials-0.2.0.zip'
+}
+tasks.register('buildShaderpack', Exec) {
+    dependsOn 'buildMaterialPack'
+    workingDir projectDir
+    commandLine 'python', 'scripts/build-sodium-pack.py'
+    inputs.dir 'shaderpacks/Aster'
+    inputs.file 'scripts/build-sodium-pack.py'
+    outputs.file 'build/shaderpacks/Aster-Sodium-0.2.1.zip'
+}
+tasks.named('assemble') { dependsOn 'buildShaderpack' }
+tasks.named('check') { dependsOn 'buildShaderpack' }

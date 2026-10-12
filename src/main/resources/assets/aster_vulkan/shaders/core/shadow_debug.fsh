@@ -1,0 +1,9 @@
+#version 330
+#extension GL_ARB_separate_shader_objects : require
+uniform sampler2D Shadow0;
+layout(location=0) in vec2 texCoord;
+layout(location=0) out vec4 fragColor;
+void main() {
+    float d = texture(Shadow0,texCoord).r;
+    fragColor = vec4(vec3(d == 0.0 ? 0.0 : (d-0.42)*6.0),1);
+}

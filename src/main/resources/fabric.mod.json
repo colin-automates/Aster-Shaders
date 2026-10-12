@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "aster_vulkan",
+  "version": "${version}",
+  "name": "Aster Vulkan",
+  "description": "A native rendering extension for Minecraft's official Vulkan backend, developed and verified on Radeon.",
+  "authors": ["Colin"],
+  "environment": "client",
+  "entrypoints": {"client": ["dev.colin.aster.AsterClient"]},
+  "mixins": ["aster.client.mixins.json"],
+  "depends": {"fabricloader": ">=0.19.5", "fabric-api": ">=0.161.0", "minecraft": "26.3", "java": ">=25"}
+}

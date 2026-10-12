@@ -1,0 +1,13 @@
+option.SHADOW_RESOLUTION=Shadow resolution
+option.SHADOW_RANGE=Shadow distance
+option.WAVE_HEIGHT=Water wave height
+option.REFLECTION_STEPS=Reflection tracing quality
+option.CLOUD_STEPS=Volumetric cloud quality
+option.FOG_STEPS=Volumetric fog quality
+option.TAA=Temporal anti-aliasing
+option.NORMAL_MAPS=Material surface relief
+option.WATER_CAUSTICS=Water caustics
+option.BLOOM_STRENGTH=Bloom strength
+option.EXPOSURE_MIN=Minimum exposure
+option.EXPOSURE_MAX=Maximum exposure
+option.NORMAL_MAPS.comment=Enable the companion Aster Materials resource pack to reproduce the original generated material relief.

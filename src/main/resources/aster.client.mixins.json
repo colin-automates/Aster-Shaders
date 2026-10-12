@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "package": "dev.colin.aster.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "RenderSystemMixin",
+    "FrontendGpuDeviceAccessor",
+    "PipelineBuilderMixin",
+    "RenderPipelinesMixin",
+    "ChunkSectionsAccessor",
+    "LevelRendererMixin",
+    "GameRendererMixin",
+    "SkyTargetMixin",
+    "CloudRendererMixin",
+    "WorldPipelineMixin",
+    "LinearShaderMixin",
+    "DefaultUniformsMixin",
+    "KeyboardMixin",
+    "VerificationWindowMixin",
+    "VerificationMouseMixin",
+    "VerificationDeviceMixin",
+    "FluidRendererMixin",
+    "EntityVisibilityMixin",
+    "FeatureDispatcherAccessor",
+    "ModelBlockRendererMixin",
+    "IndigoBlockRendererMixin",
+    "WaterDropParticleMixin",
+    "VerificationPipelineTraceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

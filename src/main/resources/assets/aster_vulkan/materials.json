@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "materials": {
+    "minecraft:block/oak_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/birch_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/spruce_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/jungle_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/acacia_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/dark_oak_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/mangrove_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/azalea_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/flowering_azalea_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/cherry_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/pale_oak_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/orange_poplar_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/red_poplar_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/yellow_poplar_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/bamboo_large_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/bamboo_small_leaves": {
+      "roughness": 0.9,
+      "thinTransmission": 0.45
+    },
+    "minecraft:block/polished_andesite": {
+      "roughness": 0.48
+    },
+    "minecraft:block/polished_granite": {
+      "roughness": 0.48
+    },
+    "minecraft:block/polished_diorite": {
+      "roughness": 0.48
+    },
+    "minecraft:block/gold_block": {
+      "roughness": 0.24,
+      "metalness": 1
+    },
+    "minecraft:block/iron_block": {
+      "roughness": 0.32,
+      "metalness": 1,
+      "generatedRelief": 0.22
+    },
+    "minecraft:block/copper_block": {
+      "roughness": 0.36,
+      "metalness": 1,
+      "generatedRelief": 0.25
+    },
+    "minecraft:block/exposed_copper": {
+      "roughness": 0.5,
+      "metalness": 0.65,
+      "generatedRelief": 0.3
+    },
+    "minecraft:block/weathered_copper": {
+      "roughness": 0.65,
+      "metalness": 0.3,
+      "generatedRelief": 0.35
+    },
+    "minecraft:block/oxidized_copper": {
+      "roughness": 0.78,
+      "metalness": 0.05,
+      "generatedRelief": 0.4
+    },
+    "minecraft:block/stone": {
+      "roughness": 0.9,
+      "generatedRelief": 0.35
+    },
+    "minecraft:block/stone_bricks": {
+      "roughness": 0.85,
+      "generatedRelief": 0.6
+    },
+    "minecraft:block/grass_block_top": {
+      "roughness": 0.95
+    },
+    "minecraft:block/glass": {
+      "roughness": 0.12
+    },
+    "minecraft:block/obsidian": {
+      "roughness": 0.32,
+      "generatedRelief": 0.3
+    },
+    "minecraft:block/water_still": {
+      "roughness": 0.1
+    },
+    "minecraft:block/water_flow": {
+      "roughness": 0.1
+    },
+    "minecraft:block/glowstone": {
+      "roughness": 0.8,
+      "emission": 4
+    },
+    "minecraft:block/sea_lantern": {
+      "roughness": 0.5,
+      "emission": 4
+    },
+    "minecraft:block/shroomlight": {
+      "roughness": 0.8,
+      "emission": 4
+    },
+    "minecraft:block/magma": {
+      "roughness": 0.9,
+      "emission": 0.8
+    },
+    "minecraft:block/oak_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/spruce_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/birch_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/jungle_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/acacia_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/dark_oak_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/mangrove_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/cherry_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/pale_oak_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/bamboo_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/crimson_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    },
+    "minecraft:block/warped_planks": {
+      "roughness": 0.72,
+      "generatedRelief": 0.32
+    }
+  }
+}
